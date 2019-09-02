@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head itemscope itemtype="http://schema.org/WebSite">
+
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="msapplication-tap-highlight" content="no">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>Project</title>
+
+      <meta name="author" content="">
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+
+      <meta itemprop="name" content="Fizzbuzz NN">
+      <meta itemprop="description" content="Loaded NN Model with tensorflow to determine fizzbuzz.">
+
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <meta name="apple-mobile-web-app-title" content="Project">
+
+      <link rel="stylesheet" href="./css/app.css">
+
+      <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+   </head>
+
+   <body itemscope itemtype="http://schema.org/WebPage">
+
+     <!-- header -->
+
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <a class="navbar-brand" href="#">Fizz Buzz NN</a>
+    </nav>
+
+    <!-- header end -->
+
+    <main class="container">
+
+      <div class="jumbotron mt-5" >
+        <h1 class="display-5 text-left">Input</h1>
+        <form>
+          <div class="input-group">
+            <input class="" id="input" type="number" >
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+          </div>
+          <small id="passwordHelpBlock" class="form-text text-muted text-left">
+            Enter a number between 0 and 16.777.216 (2^24).
+          </small>
+          
+        </form>
+        <h1 class="display-5 text-left">Predictions</h1>
+        <ul id="result" class="list-group text-left">
+        </ul>
+
+        <h1 class="display-5 text-left">Model</h1>
+        <ul id="model" class="list-group text-left"></ul>
+      </div>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer>
+
+    </footer>
+
+     <!-- footer end -->
+
+    <script type="text/javascript" src="../build/app.js"></script>
+
+  </body>
+
+</html>
